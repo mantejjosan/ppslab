@@ -1,0 +1,9 @@
+flowchart LR
+    A[Compile time error] --> B(Syntax Error) 
+    B --> X[ Not declared a variable]
+    B --> Y[Missing semicolon] 
+    A --> C[Type Error]
+
+    D[Runtime Error] 
+    E[Link Time/ Linked Error] 
+   
