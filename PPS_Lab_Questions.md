@@ -20,7 +20,8 @@ int main(){
 	
 	cout << "After swaping\n";
 	cout << "a = " << a << "\nb = " << b << endl;
-}```
+}
+```
 
 ## Program 2
 
@@ -42,7 +43,8 @@ int main(){
 	
 	cout << "After swaping\n";
 	cout << "a = " << a << "\nb = " << b << endl;
-}```
+}
+```
 
 ## Program 3
 
@@ -64,7 +66,8 @@ int main(){
 	
 	cout << "Sum of the digits: " << sum;
 	return 0;
-}```
+}
+```
 
 ## Program 4
 
@@ -86,7 +89,8 @@ int main(){
 	
 	cout << "Reverse: " << rev;
 	return 0;
-}```
+}
+```
 
 ## Program 5
 
@@ -108,7 +112,8 @@ int main(){
 	}
 	cout << "The number of 1 in the binary form of the number is: " << count;
 	return 0;
-}```
+}
+```
 
 ## Program 6
 
@@ -125,7 +130,8 @@ int main(){
 	cout << "Temp is " << cel << " degree celcius\n";
 	
 	return 0;
-}```
+}
+```
 
 ## Program 7
 
@@ -145,7 +151,8 @@ int main(){
 	cout << "Area is " << length*breadth << " squared units";
 	
 	return 0;
-}```
+}
+```
 
 ## Program 8
 
@@ -199,7 +206,8 @@ int main(){
 	
 	cout << (a%2==0?"even":"odd");
 
-}```
+}
+```
 
 ## Program 10
 
@@ -220,7 +228,8 @@ int main(){
 	
 	cout << "Gross salary: " << grossSal;
 	return 0;
-}```
+}
+```
 
 ## Program 11
 
@@ -234,4 +243,5 @@ int main(){
 	
 	cout << (a%2==0)?"even":"odd";
 
-}```
+}
+```
