@@ -1,4 +1,4 @@
-# PPS Lab Questions by Mantej Singh
+tu# PPS Lab Questions by Mantej Singh
 
 ## Program 1
 
@@ -243,5 +243,29 @@ int main(){
 	
 	cout << (a%2==0)?"even":"odd";
 
+}
+```
+## Program 14
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a = 19;
+    int* aptr = &a;
+    
+    cout << "Address of a: " << &a << endl;
+    cout << "Address of pointer: " << &aptr << endl;
+    cout << "value of pointer: " << aptr << endl;
+    cout << "Value of pointer(dereferencing): " << *aptr << endl;
+    
+    
+    ++*aptr;
+    cout << "Incremented value of a using pointer: " << a << endl;
+    *aptr = 38;
+    cout << "Changed value of a using pointer: " << a << endl;
+    return 0;
 }
 ```
