@@ -1,4 +1,4 @@
-#Test file
+# Test file
 
 ```mermaid
 info
@@ -7,6 +7,7 @@ info
 ## making a flowchart
 
 ```mermaid
+flowchart TD
 A(start) --> B(End)
 ```
 
