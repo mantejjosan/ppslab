@@ -35,10 +35,10 @@ Short-circuit occurred.
 In this example, `x != 0` is false, so the expression after `&&` is not evaluated, avoiding a division by zero error.
 
 
-
 ## 3. What Goes Behind the Scene When You Attempt to Get an Output from Source Code in C++?
 
-When you compile and run a C++ program, a series of steps take place, which can be explained in the following stages:
+The compilation process can be broadly classified into 4 stages: `Preprocessing`, `Compilation`, `Assembly`, and `Linking` after which the `.cpp` code is converted to `.exe` and is ready to be executed. 
+
 
 1. **Preprocessing**: The preprocessor handles directives like `#include` and `#define`. It expands macros and includes header files.
 2. **Compilation**: The source code (.cpp) is translated into assembly code by the compiler.
@@ -49,11 +49,11 @@ When you compile and run a C++ program, a series of steps take place, which can 
 ### Diagram
 
 <div class="mermaid">
-graph TD;
+flowchart TD
     A(Source Code) --> B(Preprocessor)
     B --> |program.i| C(Compiler)
     C --> |program.s| D(Assembler)
-    D --> |program.o| E(Linker)
+    D --> |program.obj| E(Linker)
     E --> F(Executable)
 </div>
 
@@ -144,14 +144,14 @@ int main() {
 ## 6. Flowchart to Find the Greatest Among Three Numbers
 
 <div class="mermaid">
-graph TD;
-    A[Start] --> B[Input three numbers a, b, c]
+flowchart TD
+    A(Start) --> B(Input three numbers a, b, c)
     B --> C{Is a > b and a > c?}
-    C --> D[Print a is greatest]
+    C --> D(Print a is greatest)
     C --> E{Is b > a and b > c?}
-    E --> F[Print b is greatest]
-    E --> G[Print c is greatest]
-    D --> H[End]
+    E --> F(Print b is greatest)
+    E --> G(Print c is greatest)
+    D --> H(End)
     F --> H
     G --> H
 </div> 
