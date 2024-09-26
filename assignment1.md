@@ -20,10 +20,10 @@ int main() {
     int x = 0, y = 10;
     // Using short-circuit AND
     if (x != 0 && y / x > 1) {
-        cout << "This won't print because x is zero." << endl;
+        cout << "This won't result in runtime error(divide by zero)." << endl;
     }
     else {
-        cout << "Short-circuit occurred." << endl;
+        cout << "Short-circuit occurred.\n Runtime Error Prevented " << endl;
     }
     return 0;
 }
@@ -31,6 +31,7 @@ int main() {
 **Output**: 
 ```
 Short-circuit occurred.
+Runtime Error Prevented
 ```
 In this example, `x != 0` is false, so the expression after `&&` is not evaluated, avoiding a division by zero error.
 
