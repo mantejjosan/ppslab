@@ -45,15 +45,14 @@ When you compile and run a C++ program, a series of steps take place, which can 
 
 ### Diagram
 
-```mermaid
+<div class="mermaid">
 graph TD;
     A(Source Code) --> B(Preprocessor)
     B --> |program.i| C(Compiler)
     C --> |program.s| D(Assembler)
     D --> |program.o| E(Linker)
     E --> F(Executable)
-```
-
+</div>
 
 
 ## 4. Menu-driven Program in C++ to Find Maximum, Minimum, Square, and Square Root of Numbers
@@ -141,7 +140,7 @@ int main() {
 
 ## 6. Flowchart to Find the Greatest Among Three Numbers
 
-```mermaid
+<div class="mermaid">
 graph TD;
     A[Start] --> B[Input three numbers a, b, c]
     B --> C{Is a > b and a > c?}
@@ -152,7 +151,7 @@ graph TD;
     D --> H[End]
     F --> H
     G --> H
-```
+</div>
 
 
 
