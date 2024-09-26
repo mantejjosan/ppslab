@@ -1,0 +1,10 @@
+remote_theme: pages-themes/midnight@v0.2.0
+
+title: "Assignment"
+description: "Rendering Mermaid Js Code"
+
+show_downloads: true
+
+github:
+  zip_url: http://mantejjosan.com/assignment1
+  
