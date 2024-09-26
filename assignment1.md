@@ -16,6 +16,8 @@ A.
 | 4. Easier to implement as it already reflects programming concepts.         | 4. Harder to implement in code.                  |
 | 5. Easily understandable by developers but may be incomprehensible to others. | 5. Easily understandable by everyone who knows the language of the algorithm.  |
 | 6. It makes use of indentation, naming conventions, loops, data structures, etc. | 6. Always written using step numbers. |
+
+
 ---
 B.
 
