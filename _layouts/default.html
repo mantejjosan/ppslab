@@ -54,5 +54,23 @@
         });
       });
     </script>
+    <script>
+    // Find all <pre> and <code> tags containing Mermaid code and add the 'mermaid' class
+    document.addEventListener("DOMContentLoaded", function() {
+        const preTags = document.querySelectorAll("pre code");
+        
+        preTags.forEach(function(tag) {
+            if (tag.textContent.includes('graph')) {
+                const parentPre = tag.parentElement;
+                parentPre.classList.add("mermaid");
+                // Optionally remove the <code> tags if Mermaid syntax is already within
+                parentPre.innerHTML = tag.innerHTML;
+            }
+        });
+
+        // Re-initialize Mermaid after updating the DOM
+        mermaid.init();
+    });
+    </script>
   </body>
 </html>
