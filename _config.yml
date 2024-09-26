@@ -5,6 +5,8 @@ description: "Rendering Mermaid Js Code"
 
 show_downloads: true
 
+mermaid:
+  enabled: true
+
 github:
   zip_url: http://mantejjosan.com/assignment1
-  
