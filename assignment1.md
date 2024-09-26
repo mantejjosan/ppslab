@@ -1,7 +1,5 @@
 
-# C++ Programming Questions and Solutions
-
----
+# Assignment 1: C++ Programming Questions and Solutions
 
 ## 2. Discuss Short-Circuit Operator with Example
 
@@ -33,7 +31,7 @@ Short-circuit occurred.
 ```
 In this example, `x != 0` is false, so the expression after `&&` is not evaluated, avoiding a division by zero error.
 
----
+
 
 ## 3. What Goes Behind the Scene When You Attempt to Get an Output from Source Code in C++?
 
@@ -50,13 +48,13 @@ When you compile and run a C++ program, a series of steps take place, which can 
 ```mermaid
 graph TD;
     A(Source Code) --> B(Preprocessor)
-    B --> C(Compiler)
-    C --> D(Assembler)
-    D --> E(Linker)
+    B --> |program.i| C(Compiler)
+    C --> |program.s| D(Assembler)
+    D --> |program.o| E(Linker)
     E --> F(Executable)
 ```
 
----
+
 
 ## 4. Menu-driven Program in C++ to Find Maximum, Minimum, Square, and Square Root of Numbers
 
@@ -106,7 +104,7 @@ int main() {
 }
 ```
 
----
+
 
 ## 5. Program to Assign a Grade Based on Marks Using If-Else Conditions
 
@@ -139,7 +137,7 @@ int main() {
 }
 ```
 
----
+
 
 ## 6. Flowchart to Find the Greatest Among Three Numbers
 
@@ -156,11 +154,11 @@ graph TD;
     G --> H
 ```
 
----
+
 
 ## 7. Program Output of Prefix and Postfix Increments
 
-### Code:
+### Code(given in question):
 ```cpp
 #include <iostream>
 using namespace std;
@@ -197,7 +195,4 @@ Result of Postfix Increment: 5
 - **Prefix Increment (`++i`)**: The value of `i` is incremented first, and then the result is used. Hence, `i = 6`.
 - **Postfix Increment (`i++`)**: The value of `i` is used first, and then it is incremented. Hence, `i = 6` but `postfixResult = 5`.
 
----
-```
 
-This markdown file provides clear answers with relevant code snippets, diagrams, and explanations. Let me know if you'd like to adjust anything!
