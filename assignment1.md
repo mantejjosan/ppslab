@@ -6,6 +6,8 @@ description: "C++ Programming Questions and Solutions"
 
 ## 1. Differentiate between the following
 
+A.
+
 | Pseudo Code                                   | Algorithm                                      |
 |-----------------------------------------------|------------------------------------------------|
 | 1. A high-level representation of an algorithm using simple language. | 1. A step-by-step procedure for solving a problem. |
@@ -14,6 +16,7 @@ description: "C++ Programming Questions and Solutions"
 | 4. Not executable, serves as a guide.           | 4. Can be implemented in code.                    |
 
 ---
+B.
 
 | Linker Error                                  | Logical Error                                   |
 |-----------------------------------------------|------------------------------------------------|
@@ -23,6 +26,7 @@ description: "C++ Programming Questions and Solutions"
 | 4. Fixing the linking issues or missing references. | 4. Debugging the code to find and correct logic flaws. |
 
 ---
+C.
 
 | Syntax Error                                   | Semantic Error                                  |
 |-----------------------------------------------|------------------------------------------------|
@@ -32,6 +36,7 @@ description: "C++ Programming Questions and Solutions"
 | 4. Correcting the syntax according to language rules. | 4. Modifying the logic to ensure it performs as intended. |
 
 ---
+D.
 
 | Variable Declaration                          | Variable Initialization                         |
 |-----------------------------------------------|------------------------------------------------|
@@ -41,6 +46,7 @@ description: "C++ Programming Questions and Solutions"
 | 4. Must occur before a variable is used.        | 4. Can occur at any point after declaration.      |
 
 ---
+E. 
 
 | Postfix Operator                              | Prefix Operator                                 |
 |-----------------------------------------------|------------------------------------------------|
