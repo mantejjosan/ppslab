@@ -1,5 +1,6 @@
+title: "Assignment 1"
+description: "C++ Programming Questions and Solutions"
 
-# Assignment 1: C++ Programming Questions and Solutions
 
 ## 2. Discuss Short-Circuit Operator with Example
 
@@ -151,7 +152,7 @@ graph TD;
     D --> H[End]
     F --> H
     G --> H
-</div>
+</div> 
 
 
 
