@@ -1,5 +1,7 @@
+---
 title: "Assignment 1"
 description: "C++ Programming Questions and Solutions"
+---
 
 
 ## 2. Discuss Short-Circuit Operator with Example
