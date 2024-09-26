@@ -11,11 +11,11 @@ A.
 | Pseudo Code                                   | Algorithm                                      |
 |-----------------------------------------------|------------------------------------------------|
 | 1. Set of instructions written in English in a way that closely resembles a programming language. | 1. A step-by-step procedure for solving a problem. |
-| 2. Pseudo code is developer oriented, i.e. it is ready for developers to understand. | 2. Algorithm requires no prior knowledge of programming |
-| 3. It makes use of both English and a programming language   | 3. It is written in any language of communication like English, Urdu, Hindi, etc       |
-| 4. Or is easier to implement as it already reflects programming concepts         | 4. It's harder to implement in code.                  |
-| 5. It is easily understandable by developers but may be incomprehensible by others. | 5. It's easily understandable by everyone who knows the language of the algorithm.  |
-| 6. It makes use of indentation, naming conventions, loops, data structures, etc | 6. It is always written using step numbers. |
+| 2. Pseudo code is developer-oriented, i.e., it is ready for developers to understand. | 2. Algorithm requires no prior knowledge of programming. |
+| 3. It makes use of both English and a programming language.   | 3. It is written in any language of communication like English, Urdu, Hindi, etc.       |
+| 4. Easier to implement as it already reflects programming concepts.         | 4. Harder to implement in code.                  |
+| 5. Easily understandable by developers but may be incomprehensible to others. | 5. Easily understandable by everyone who knows the language of the algorithm.  |
+| 6. It makes use of indentation, naming conventions, loops, data structures, etc. | 6. Always written using step numbers. |
 ---
 B.
 
