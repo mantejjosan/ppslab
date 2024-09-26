@@ -10,7 +10,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
     <!-- Load Mermaid.js only once -->
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+        mermaid.initialize({
+            startOnLoad: true,
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .mermaid {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
   </head>
   <body>
     <div id="header">
@@ -40,37 +58,5 @@
 
       </section>
     </div>
-
-    <!-- Initialize Mermaid.js after the content is loaded -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        mermaid.initialize({
-          startOnLoad: true,
-          theme: 'default',
-          flowchart: {
-            useMaxWidth: false,
-            htmlLabels: true
-          }
-        });
-      });
-    </script>
-    <script>
-    // Find all <pre> and <code> tags containing Mermaid code and add the 'mermaid' class
-    document.addEventListener("DOMContentLoaded", function() {
-        const preTags = document.querySelectorAll("pre code");
-        
-        preTags.forEach(function(tag) {
-            if (tag.textContent.includes('graph')) {
-                const parentPre = tag.parentElement;
-                parentPre.classList.add("mermaid");
-                // Optionally remove the <code> tags if Mermaid syntax is already within
-                parentPre.innerHTML = tag.innerHTML;
-            }
-        });
-
-        // Re-initialize Mermaid after updating the DOM
-        mermaid.init();
-    });
-    </script>
   </body>
 </html>
