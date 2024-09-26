@@ -6,9 +6,9 @@ info
 
 ## making a flowchart
 
-```mermaid
+<div class = "mermaid">
 flowchart TD
 A(start) --> B(End)
-```
+</div>
 
 this thing works!
