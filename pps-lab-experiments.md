@@ -39,7 +39,8 @@ int main(){
 	cout << "Temp is " << cel << " degree celcius\n";
 	
 	return 0;
-}```
+}
+```
 
 ## Program 6
 
@@ -59,7 +60,8 @@ int main(){
 	cout << "Area is " << length*breadth << " squared units";
 	
 	return 0;
-}```
+}
+```
 
 ## Program 7
 
@@ -113,7 +115,8 @@ int main(){
 	
 	cout << (a%2==0?"even":"odd");
 
-}```
+}
+```
 
 ## Program 9
 
@@ -134,7 +137,8 @@ int main(){
 	
 	cout << "Gross salary: " << grossSal;
 	return 0;
-}```
+}
+```
 
 ## Program 10
 
@@ -156,7 +160,8 @@ int main(){
 	
 	cout << "After swaping\n";
 	cout << "a = " << a << "\nb = " << b << endl;
-}```
+}
+```
 
 ## Program 10
 
@@ -178,7 +183,8 @@ int main(){
 	
 	cout << "After swaping\n";
 	cout << "a = " << a << "\nb = " << b << endl;
-}```
+}
+```
 
 ## Program 11
 
@@ -200,7 +206,8 @@ int main(){
 	
 	cout << "Sum of the digits: " << sum;
 	return 0;
-}```
+}
+```
 
 ## Program 12
 
@@ -222,7 +229,8 @@ int main(){
 	
 	cout << "Reverse: " << rev;
 	return 0;
-}```
+}
+```
 
 ## Program 13
 
@@ -244,7 +252,8 @@ int main(){
 	}
 	cout << "The number of 1 in the binary form of the number is: " << count;
 	return 0;
-}```
+}
+```
 
 ## Program 14
 
@@ -524,12 +533,24 @@ int main(){
 
 ```cpp
 #include <iostream>
+#include <ctime>
 using namespace std;
 
 int main(){
-	
+menu:
+	srand(time(0));
+	cout << "\n1. Press 1 to roll a die\n2. Press any other character to exit\n";
+	char ch;
+	cin >> ch;
+
+	if(ch == '1'){
+		int die_roll = (rand() % 6) + 1;
+		cout << "\nYou got a " << die_roll << "!";
+		goto menu;
+	}
 	cout << "\n\nRoll no: 2415188\n";
 	return 0;
 }
+
 ```
 
