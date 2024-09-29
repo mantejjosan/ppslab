@@ -18,6 +18,42 @@
             startOnLoad: true,
         });
     </script>
+    <script>
+  function addCopyButton() {
+    // Select all code blocks with class "language-cpp"
+    const codeBlocks = document.querySelectorAll('.language-cpp');
+
+    // Iterate over each code block
+    codeBlocks.forEach(block => {
+      // Create the copy button
+      const button = document.createElement('button');
+      button.innerText = 'Copy';
+      button.classList.add('copy-button');
+
+      // Append the button to the code block
+      block.appendChild(button);
+
+      // Add the click event to copy the code
+      button.addEventListener('click', () => {
+        const code = block.innerText;
+
+        // Copy code to clipboard
+        navigator.clipboard.writeText(code).then(() => {
+          button.innerText = 'Copied!';
+          setTimeout(() => {
+            button.innerText = 'Copy';
+          }, 2000);
+        }).catch(err => {
+          console.error('Failed to copy: ', err);
+        });
+      });
+    });
+  }
+
+  // Call the function after DOM content is loaded
+  document.addEventListener('DOMContentLoaded', addCopyButton);
+</script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,7 +65,28 @@
             border: 1px solid #ccc;
             border-radius: 5px;
         }
+        /* Style for the copy button */
+  .copy-button {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background: linear-gradient(to bottom, #d3d3d3, #a9a9a9);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  /* Ensure code blocks are relatively positioned */
+  .language-cpp {
+    border-radius: 12px;
+    position: relative;
+    padding-top: 30px; /* Adding space for the button */
+  }
     </style>
+    
   </head>
   <body>
     <div id="header">
