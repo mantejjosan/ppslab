@@ -8,8 +8,8 @@ Draw flow chart to find biggest among three given number
 
 You may find biggest among three numbers, by comparing systematically two numbers at a time, as shown in flowchart below:
 
-![Mermaid svg](https://www.mermaidchart.com/raw/355d457a-ae82-4df0-b281-289cbb46b900?theme=light&version=v0.1&format=svg)
-
+[![mermaid embedded diagram to check greatest among three numbers](
+https://mermaid.ink/img/pako:eNo9UL1ugzAQfpXTTY2UCDXkr6jKlK7tkC4Vx3CAG1CCjRxbagqsnfuMfZIaQ9i-f-muwUzlAiM8aa4LeD-QfHyIj4a1SWawWOxhGRMy_P38wtdzqoM9pJ7cPMk8_vaYMCG59J2wYXDBjmTY8_ZDXFtYeTFz4sqHBnUTB2_W1NYAB8lota-qhd1kZL0RTsa6Sced9bDj0xPzq9upnPblrbee-sNUncxIbgaB5O4OcI6V0BWXuXtGQxKA0BSiEoSRgznrMyHJzuXYGnW8yQwjo62Yo1b2VGD0yZerY7bO2YhDye6j1T0yiC95aZQek90_HeB4Xg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNo9UL1ugzAQfpXTTY2UCDXkr6jKlK7tkC4Vx3CAG1CCjRxbagqsnfuMfZIaQ9i-f-muwUzlAiM8aa4LeD-QfHyIj4a1SWawWOxhGRMy_P38wtdzqoM9pJ7cPMk8_vaYMCG59J2wYXDBjmTY8_ZDXFtYeTFz4sqHBnUTB2_W1NYAB8lota-qhd1kZL0RTsa6Sced9bDj0xPzq9upnPblrbee-sNUncxIbgaB5O4OcI6V0BWXuXtGQxKA0BSiEoSRgznrMyHJzuXYGnW8yQwjo62Yo1b2VGD0yZerY7bO2YhDye6j1T0yiC95aZQek90_HeB4Xg)
 ## Markdown code
 
 Markdown used at [MerMaid](https://mermaid-js.github.io/mermaid-live-editor/).
